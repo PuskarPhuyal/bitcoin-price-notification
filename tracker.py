@@ -3,8 +3,8 @@ import time
 from datetime import datetime
 
 # Telegram API token and chat ID
-token = '5940410381:AAG6a2IVCLDk9xk7Bt27dXQYoCjUneQwfqg'
-chat_id = '1796072250'
+token = 'your telegram token'
+chat_id = 'your telegram chat id'
 
 # Coinmarketcap API endpoint
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
@@ -16,7 +16,7 @@ params = {
 }
 
 headers = {
-    'X-CMC_PRO_API_KEY': '1ceddba5-538f-48a5-84e2-cdd5e403feb5'
+    'X-CMC_PRO_API_KEY': 'Your API code'
 }
 
 while True:
